@@ -22,7 +22,7 @@
 /** The name of the database for WordPress dsadas*/
 $dbname = getenv('DB_ENV_NAME');
 if (empty($dbname)){
-	$dbname = mysampledbdev;
+	$dbname = 'mysampledbdev';
 }
 
 $dbuser = getenv('DB_ENV_USER');
