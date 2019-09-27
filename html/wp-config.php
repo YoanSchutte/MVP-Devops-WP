@@ -40,6 +40,8 @@ if (empty($dbhost)){
 	$dbhost = 'mysqlservermvp.mysql.database.azure.com:3306';
 }
 
+define('WP_HOME','https://webapp-mvp-dev.azurewebsites.net');
+define('WP_SITEURL','https://webapp-mvp-dev.azurewebsites.net');
 
 define('DB_NAME', $dbname);
 
